@@ -10,11 +10,10 @@ struct SplashView: View {
 
             VStack(spacing: ElsewhereTheme.Spacing.lg) {
                 Image("elsewhere-logo")
-                    .renderingMode(.template)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 56, height: 56)
-                    .foregroundStyle(ElsewhereTheme.Color.sand)
+                    .frame(width: 96, height: 96)
+                    .clipShape(Circle())
 
                 VStack(spacing: ElsewhereTheme.Spacing.sm) {
                     Text("Elsewhere")
