@@ -2,7 +2,7 @@ import SwiftUI
 
 struct SplashView: View {
     let onDismiss: () -> Void
-    var delay: TimeInterval = 0.6
+    var delay: TimeInterval = 1.0
 
     var body: some View {
         ZStack {
